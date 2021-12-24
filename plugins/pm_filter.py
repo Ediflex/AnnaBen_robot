@@ -413,10 +413,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⛺️ Search Movies&Series From Our Group ⛺️', url=f'https://t.me/applemoviesgroupsearch')
+            InlineKeyboardButton('⛺️ Search Movies&Series From Our Group ⛺️', url=f'https://t.me/movie_bus6')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/appleallmovies')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/MoviezzzzzBus')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -446,7 +446,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/appleallmovies'),
+            InlineKeyboardButton('🤖 Updates', url='https://youtube.com/channel/UCVbKgUOGVEdQlmLJ_fXrWMQ'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
